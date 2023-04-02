@@ -1,23 +1,3 @@
-   Documentation:
-    In order to validate the release we need the following 4 tests.
-        We want to validate that all the beer produced after December 2015
-        • has a valid ‘abv’
-        o it must be a double
-        o it must not be null
-        o it must not be an empty string
-        o it must be over 4.0
-        • has a valid ‘name’ for each beer
-        o it must not be null
-        o it must not be an empty string
-        • two extra tests which you think should be included:
-        1. has a valid ‘description’ for each beer
-          o it must be a string
-          o it must not be null
-          o it must not be an empty string
-        2. has a valid ‘image_url’ for each beer
-          o it must not be null
-          o it must not be an empty string
-
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
