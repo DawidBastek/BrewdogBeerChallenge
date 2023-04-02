@@ -9,7 +9,6 @@ public class AbaxBrewdogBeerChallengeTest {
 
     @Test
     public void testAbvIsValid() {
-
         given()
                 .param("brewed_after", "12-2015")
                 .when()
